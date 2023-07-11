@@ -9,13 +9,13 @@ namespace Newapp.Models
         public void NhapThongTin()
         {
             System.Console.Write("ma nhan vien: ");
-            MaNhanVien = Convert.toInt32(Console.ReadLine());
+            MaNhanVien = Convert.ToInt16(Console.ReadLine());
             System.Console.Write("Ho Ten Nhan Vien: ");
             HoTen = Console.ReadLine();
             System.Console.Write("Tuoi: ");
-            Tuoi = Convert.toInt16(Console.ReadLine());
+            Tuoi = Convert.ToInt16(Console.ReadLine());
             System.Console.Write("Luong: ");
-            Luong = Convert.toInt32(Console.ReadLine());
+            Luong = Convert.ToInt16(Console.ReadLine());
         }
         public void XuatThongTin()
         {

@@ -8,11 +8,11 @@ namespace Newapp.Models
         public void Input()
         {
             System.Console.Write("StudentID: ");
-            studentID = Convert.toInt32(Console.ReadLine());
+            studentID = Convert.ToInt16(Console.ReadLine());
             System.Console.Write("Ho Ten Sinh Vien: ");
             FullName = Console.ReadLine();
             System.Console.Write("Age: ");
-            Age = Convert.toInt16(Console.ReadLine());
+            Age = Convert.ToInt16(Console.ReadLine());
         }
         public void Output()
         {
